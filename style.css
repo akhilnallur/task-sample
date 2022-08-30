@@ -16,13 +16,16 @@ section{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
+    font-size: calc(100%/80px);
 }
 
 section .box{
     width: 15%;
     height: 15%;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box:nth-child(1){
