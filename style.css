@@ -26,6 +26,12 @@ section .box{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 1s;
+}
+
+section .box:hover{
+    background: burlywood;
+    transform: scale(1, 1.5);
 }
 
 .box:nth-child(1){
