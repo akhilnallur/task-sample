@@ -33,16 +33,16 @@ section .box{
 }
 
 section .box h3{
-   
+   font-size: 25px;
 }
 
 section .box p{
-    
+    color: rgb(200, 204, 207);
 }
 
 section .box:hover{
-    background: burlywood;
-    transform: scale(1, 1.5);
+    background: rgb(0, 187, 69);
+    transform: scale(1.2, 1.5);
 }
 
 .box:nth-child(1){
