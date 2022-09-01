@@ -20,13 +20,24 @@ section{
 }
 
 section .box{
-    width: 15%;
-    height: 15%;
+    min-width: 18%;
+    min-height: 15%;
     border-radius: 5px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: all 1s;
+    font-size: 15px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+section .box h3{
+   
+}
+
+section .box p{
+    
 }
 
 section .box:hover{
